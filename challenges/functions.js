@@ -37,6 +37,9 @@ console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to
 
 // Explanation: 
 
+// the constant variable, named 'internal' is created within the function, myFunction(). This is a local, block-scope variable not accessable oustide the use of this function.
+// Because 'nestedFunction() is nested, or initiated within, 'myFunction()' it has access to all of the items belonging to the parent function.
+
 
 const external = "I'm outside the function";
 
