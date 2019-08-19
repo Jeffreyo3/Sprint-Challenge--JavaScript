@@ -136,6 +136,7 @@ const lowerCase = zooAnimals.map(function (lowerCaseNames) {
 });
 console.log(lowerCase); 
 
+
 /* Request 3: .filter() 
 
 The zoos are concenred about animals with a lower population count. Find out which animals have a population less than 5.  */
@@ -149,15 +150,12 @@ console.log(lowerPopulation);
 
 The zoos need to know their total animal population across the United States.  Find the total population from all the zoos using the .reduce() method.  */
 
-const populationTotal = zooAnimals.reduce((totalPop, pop) => {
+const populationTotal = zooAnimals.reduce(function (totalPop, pop) {
   return totalPop += pop.population;
 }, 0);
 console.log(populationTotal);
 
 
 /* 
-
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
-
 */
-
