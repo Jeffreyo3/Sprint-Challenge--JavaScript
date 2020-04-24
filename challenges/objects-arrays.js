@@ -78,7 +78,7 @@ for (let i = 0; i < graduates.length; i++) {
   universities.push(graduates[i].university);
   universities.sort();
 }
-console.log(universities)
+console.log(universities);
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. 
 The resulting contact information should have a space between the first name and the email information like this: 
@@ -145,6 +145,11 @@ const lowerPopulation = zooAnimals.filter(function(lowPop) {
   return lowPop.population < 5;
 })
 console.log(lowerPopulation);
+
+// const lowerPopulation = zooAnimals.filter((lowPop) => {
+//    return lowPop.population < 5;
+// })
+// console.log(lowerPopulation);
 
 /* Request 4: .reduce() 
 
